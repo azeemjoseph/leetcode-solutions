@@ -23,4 +23,7 @@ while (n) {
     n = Math.floor(n/10);
 }
 return reverseN > 0x7FFFFFFF ? 0 : sign ? -reverseN : reverseN;
+
+console.log(reverse(-123));
+console.log(reverse(1563847412));
 */
