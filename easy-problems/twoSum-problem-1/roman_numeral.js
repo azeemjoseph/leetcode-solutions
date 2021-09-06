@@ -4,7 +4,7 @@ var romanToInt = function (s) {
   var len = s.length;
   for (let i = len - 1; ~i; i--) {
     let total_number = Symbols_values[s.charAt(i)];
-    if (2 * total_number < ans) ans -= total_number;    
+    if (4 * total_number < ans) ans -= total_number;    
     else ans += total_number;
   }
   return ans;
