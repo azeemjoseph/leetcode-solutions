@@ -10,7 +10,7 @@ var romanToInt = function (s) {
   return ans;
 };
   
-console.log(romanToInt("LVIII"));
+console.log(romanToInt("MXI"));
 
 /* Alternate
 const romanToNumber = s => Uint16Array.from(s, n => Symbols_values[n])
