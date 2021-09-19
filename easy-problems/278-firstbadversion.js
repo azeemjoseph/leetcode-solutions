@@ -7,7 +7,7 @@ var solution = function(isBadVersion) {
         var left_node = 1;
         var right_node = n;
         while(left_node<right_node) {
-            var mid = Math.floor((left_node + right_node)/2);
+            var mid = left_node + Math.floor((right_node - left_node)/2);
             if(isBadVersion(mid)) {
                 right_node = mid;
             } else {
